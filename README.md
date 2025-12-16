@@ -45,3 +45,13 @@ load DWH data into pandas DataFrames, and visualize analytical results.
 
 ## Repository Structure
 See folders for SQL scripts, SSIS packages, Python analysis and database backup.
+
+
+
+**P.S. – Database Backup**
+
+The database backup is provided as a compressed file (`LegoDWH.bak.zip`)  
+due to GitHub file size limitations. The backup can be restored by  
+unzipping the file and using the SQL Server `RESTORE DATABASE` command.
+
+
