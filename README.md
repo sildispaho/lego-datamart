@@ -36,8 +36,9 @@ A stored procedure was created to count how many parts of category
 The procedure inserts daily results into a reporting table.
 
 ## Scheduling
-Because SQL Server Express does not support SQL Server Agent,
-the procedure is still pending for schedule (need clarification)
+Because SQL Server Express Edition does not support SQL Server Agent, the stored procedure is scheduled using an external approach.
+A Python script is used to execute the stored procedure, and the script is scheduled to run daily at 10:00 AM using **Windows Task Scheduler**.
+(python script can be found in the **python** folder).
 
 ## Python Analysis
 Jupyter Notebook file demonstrates how to connect to SQL Server using pyodbc,
