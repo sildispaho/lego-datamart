@@ -34,6 +34,8 @@ The DWH consists of:
 A stored procedure was created to count how many parts of category
 'Technic Bricks' are with 'Dark Bluish Gray' color.
 The procedure inserts daily results into a reporting table.
+A report (Technic_Bricks_Report) is built on top of this table using
+Microsoft Report Builder and is available in the Report folder for end-user data visualization.
 
 ## Scheduling
 Because SQL Server Express Edition does not support SQL Server Agent, the stored procedure is scheduled using an external approach.
@@ -45,7 +47,16 @@ Jupyter Notebook file demonstrates how to connect to SQL Server using pyodbc,
 load DWH data into pandas DataFrames, and visualize analytical results.
 
 ## Repository Structure
-See folders for SQL scripts, SSIS packages, Python analysis and database backup.
+The repository contains:
+
+SQL scripts
+SSIS packages
+Python scripts and notebooks
+Reporting artifacts
+Database backup
+
+A detailed technical documentation file describing the architecture and implementation
+is provided at the root level of the repository.
 
 
 
