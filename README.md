@@ -58,6 +58,9 @@ Database backup
 A detailed technical documentation file describing the architecture and implementation
 is provided at the root level of the repository.
 
+## Azure Implementation
+
+An Azure-based proof of concept is included in the `azure` folder, demonstrating how the solution can be orchestrated using Azure Blob Storage and Azure Data Factory.
 
 
 **P.S. – Database Backup**
